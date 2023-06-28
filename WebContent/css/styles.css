@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+
+body{
+	
+	background: url(../images/fondo.jpg);
+}
+
+
+
+#contenedor0{
+	
+	width: 1300px;
+	margin: auto;
+	margin-top: 100px;
+	
+}
+
+#contenedor1{
+	background-color: rgba(249,247,247,0.9);
+	width: 480px;
+	height: 550px;
+	border-radius: 15px;
+	float: left;
+	display: inline-block;
+}
+
+
+#form1{
+	width: 100%; 
+	padding: 30px 20px 10px 20px; 
+	box-sizing: border-box; 
+	text-align: center;
+	}
+
+#contenedor1 h1{
+	text-align: center;
+	padding-top: 20px;
+	color: #1b4f72;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: underline #1b4f72;  
+	      
+	
+}
+
+#form1 input[type="text"], #form1 input[type="password"], #form1 input[type="email"], #form1 input[type="number"], #form1 textarea {
+	border: none;
+	background: white;
+	width: 80%;
+	height: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#form1 textarea{
+	border: none;
+	background: white;
+	width: 80%;
+	height: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 15px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 50px;
+	}
+
+
+input::placeholder {
+  font-family: 'Roboto', sans-serif;
+}
+
+#form1 input[type="submit"]{
+	border: 2px solid #ffffff;
+	background: #1b4f72;
+	color: #ffffff;
+	width: 60%;
+	height: 50px;
+	font-size: 25px;
+	font-weight: 900;
+	cursor: pointer;
+	margin-top: 10px;
+	border-radius: 15px;
+}
+
+#form1 input[type="submit"]:hover{
+	border: 2px solid #ffffff;
+	background: BLACK;
+	color: #ffffff;
+	width: 60%;
+	height: 50px;
+	font-size: 25px;
+	font-weight: 900;
+	cursor: pointer;
+	margin-top: 10px;
+	border-radius: 15px;
+}
+
+#form1 hr{
+	
+	color:#aed6f1;
+}
+
+img{
+	float:left;
+	width: 50px;
+	
+}
+
+
+#contenedor2{
+	
+	text-align: center;
+	margin-top: 10px;
+	color: RED;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+
+#contenedor3{
+	background-color: rgba(249,247,247,0.9);
+	width: 720px;
+	height: 550px;
+	border-radius: 15px;
+	float: right;
+	display: inline-block;
+}
+
+
+
+#contenedor3 table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+#contenedor3 th, .contenedor2 td {
+	padding: 10 px;
+}
+
+#contenedor3 h1{
+	text-align: center;
+	padding-top: 20px;
+	color: #1b4f72;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: underline #1b4f72;        
+	
+}
